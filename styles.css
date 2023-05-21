@@ -1,0 +1,21 @@
+body{
+    background-color: lightblue;
+}
+
+p, h3{
+    display: block;
+    text-align: right;
+    color: lightcoral;
+}
+
+a{
+    text-shadow: blue;
+    color: red;
+    font-size: large;
+}
+
+h1{
+    text-align: center;
+    color: black;
+    border: 2px solid green;
+}
