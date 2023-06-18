@@ -3,6 +3,10 @@
 :root{
   --clr-white: white;
   --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  --fixed-width: 620px;
+  --clr-grey-1: hsl(209, 61%, 16%);
+  --spacing: 0.1rem;
+  --clr-primary-5: hsl(205, 78%, 60%);
 }
 
 body{
