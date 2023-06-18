@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&display=swap');
 
+:root{
+  --clr-white: white;
+  --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
 body{
   font-family: 'Open Sans', sans-serif;
 }
@@ -44,4 +49,8 @@ nav a {
 }
 nav a:hover {
   color: var(--clr-primary-5);
+}
+
+li{
+  list-style-type: none;
 }
