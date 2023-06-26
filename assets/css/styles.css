@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&display=swap');
 /*FORMAT BUTTONS*/
 button{
-  
+  padding: 2cm;
+  margin: 10px;
+  display: flex;
+  border-color: black;
 }
 
 :root{
@@ -47,6 +50,7 @@ nav {
   margin: 0 auto;
   display: flex;
   align-items: center;
+  
   justify-content: space-between;
 }
 .nav-center h4 {
