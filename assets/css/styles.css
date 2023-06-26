@@ -9,13 +9,14 @@
 }
 
 #continue{
-  padding: 10px;
   border-color: black;
-  border-width: 5px;
+  border-width: 0.25cm;
+  font-size: 6rem;
+  display: block;
+  margin: auto;   
 }
 
 button{
-
   border-radius: 25px;
 }
 
@@ -27,6 +28,7 @@ button{
   text-align: center;
   padding: 10px;
   border-radius: 25px;
+  padding-bottom: 30px;
 }
 
 :root{
