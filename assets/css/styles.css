@@ -1,4 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&display=swap');
+/*FORMAT BUTTONS*/
+:root{
+  --clr-white: white;
+  --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  --fixed-width: 620px;
+  --clr-grey-1: hsl(209, 61%, 16%);
+  --spacing: 0.1rem;
+  --main-background: #3D5365;
+  --clr-primary-5: hsl(205, 78%, 60%);
+}
 
 body{
   font-family: 'Open Sans', sans-serif;
@@ -8,6 +18,52 @@ h1{
   font-weight: 300;
 }
 
-p,h4,h5,h6{
+h4{
+  letter-spacing: var(--spacing);
+  text-transform: capitalize;
+  line-height: 1.25;
+  padding-bottom: 0.75rem;
+  font-size: 1rem;
+}
+
+p,h5,h6{
   font-weight: 500;
+}
+
+nav {
+  background: var(--clr-white);
+  height: 3rem;
+  display: grid;
+  align-items: center;
+  box-shadow: var(--dark-shadow);
+}
+.nav-center {
+  width: 90vw;
+  max-width: var(--fixed-width);
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-center h4 {
+  margin-bottom: 0;
+  color: var(--clr-primary-5);
+}
+.nav-links {
+  display: flex;
+}
+nav a {
+  text-transform: capitalize;
+  font-weight: 700;
+  font-size: 1rem;
+  color: var(--clr-primary-1);
+  letter-spacing: var(--spacing);
+  margin-right: 1rem;
+}
+nav a:hover {
+  color: var(--clr-primary-5);
+}
+
+li{
+  list-style-type: none;
 }
