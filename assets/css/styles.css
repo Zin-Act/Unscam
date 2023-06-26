@@ -87,6 +87,7 @@ button{
 body{
   font-family: 'Open Sans', sans-serif;
   background-image: url("img/18010.jpg");
+  background-size: cover;
 }
 
 h1{
