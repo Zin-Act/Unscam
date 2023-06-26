@@ -42,6 +42,48 @@ button{
   --clr-primary-5: hsl(205, 78%, 60%);
 }
 
+#start{
+  padding: 0.5cm;
+  margin: 10px;
+  display: flex;
+  border-color: black;
+  font-size: xx-large;
+}
+
+#continue{
+  border-color: black;
+  border-width: 0.25cm;
+  font-size: 6rem;
+  display: block;
+  margin: auto;   
+}
+
+button{
+  border-radius: 25px;
+}
+
+#welcome{
+  background-color: var(--text-background);
+  margin: 20px;
+  margin-top: 15px;
+  font-size: xx-large;
+  text-align: center;
+  padding: 10px;
+  border-radius: 25px;
+  padding-bottom: 30px;
+}
+
+:root{
+  --text-background: rgba(211, 211, 211, 0.468);
+  --clr-white: white;
+  --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  --fixed-width: 620px;
+  --clr-grey-1: hsl(209, 61%, 16%);
+  --spacing: 0.1rem;
+  --main-background: #3D5365;
+  --clr-primary-5: hsl(205, 78%, 60%);
+}
+
 body{
   font-family: 'Open Sans', sans-serif;
 }
@@ -50,6 +92,15 @@ h1{
   font-weight: 300;
 }
 
+h4{
+  letter-spacing: var(--spacing);
+  text-transform: capitalize;
+  line-height: 1.25;
+  padding-bottom: 0.75rem;
+  font-size: 1rem;
+}
+
+p,h5,h6{
 h4{
   letter-spacing: var(--spacing);
   text-transform: capitalize;
