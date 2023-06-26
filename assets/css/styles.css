@@ -101,6 +101,9 @@ h4{
 }
 
 p,h5,h6{
+  font-weight: 300;
+}
+
 h4{
   letter-spacing: var(--spacing);
   text-transform: capitalize;
