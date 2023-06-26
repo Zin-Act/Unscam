@@ -75,7 +75,7 @@ button{
 }
 
 :root{
-  --text-background: rgba(211, 211, 211, 0.468);
+  --text-background: rgba(211, 211, 211, 0.539);
   --clr-white: white;
   --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   --fixed-width: 620px;
