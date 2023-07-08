@@ -50,6 +50,12 @@ button{
   font-size: xx-large;
 }
 
+#game{
+  width: auto;
+  height: auto;
+  margin: auto;
+}
+
 #continue{
   border-color: black;
   border-width: 0.25cm;
