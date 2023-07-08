@@ -89,10 +89,16 @@ body, html{
   height: 100%;
 }
 
+.bg {
+  background-image: url("../img/18010.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 body{
   font-family: 'Open Sans', sans-serif;
-  background-image: url("../img/18010.jpg");
-  background-size: cover;
 }
 
 h1{
