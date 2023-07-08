@@ -85,19 +85,16 @@ button{
   --clr-primary-5: hsl(205, 78%, 60%);
 }
 
-body, html{
+html{
   height: 100%;
 }
 
-.bg {
+body{
   background-image: url("../img/18010.jpg");
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-}
-
-body{
   font-family: 'Open Sans', sans-serif;
 }
 
