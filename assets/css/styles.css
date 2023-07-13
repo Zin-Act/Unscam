@@ -50,6 +50,11 @@ button{
   font-size: xx-large;
 }
 
+#checker{
+  text-align: center;
+  margin: 100%;
+}
+
 #game{
   margin-top: 30px;
   width: 100%;
