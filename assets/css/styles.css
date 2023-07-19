@@ -50,6 +50,10 @@ button{
   font-size: xx-large;
 }
 
+#selection{
+  margin: 10px;
+}
+
 #checker{
   text-align: center;
   margin: 100%;
