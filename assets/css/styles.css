@@ -50,6 +50,10 @@ button{
   font-size: xx-large;
 }
 
+#selection{
+  text-align: center;
+}
+
 .select{
   margin: 10px;
 }
