@@ -1,6 +1,6 @@
-const easy = document.getElementById(easy);
-const hard = document.getElementById(hard);
-const quiz = document.getElementById(quiz);
+const easy = document.getElementById("easy");
+const hard = document.getElementById("hard");
+const quiz = document.getElementById("quiz");
 
 easy.addEventListener("click", easyMode);
 
