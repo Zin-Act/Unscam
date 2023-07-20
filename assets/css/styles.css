@@ -70,6 +70,12 @@ button{
   height: 80%;
 }
 
+#quiz{
+  margin-top: 30px;
+  width: 100%;
+  height: 80%;
+}
+
 #continue{
   border-color: black;
   border-width: 0.25cm;
