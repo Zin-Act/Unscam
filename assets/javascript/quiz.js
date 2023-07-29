@@ -5,6 +5,6 @@ const quiz = document.getElementById("quiz");
 easy.addEventListener("click", easyMode);
 
 function easyMode() {
-    quiz.src = example;
+    document.getElementById("quiz").src = "";
     console.log("testing");
 }
