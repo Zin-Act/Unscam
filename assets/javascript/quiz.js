@@ -5,6 +5,6 @@ const quiz = document.getElementById("quiz");
 easy.addEventListener("click", easyMode);
 
 function easyMode() {
-    document.getElementById("quiz").src = "https://www.ftc.gov/business-guidance/small-businesses/cybersecurity/quiz/tech-support-scam";
+    document.getElementById("quiz").src = "https://www.westpac.com.au/security/protect-yourself-and-your-business/scams-quiz/scam-quiz/#/scamQuiz";
     console.log("testing");
 }
